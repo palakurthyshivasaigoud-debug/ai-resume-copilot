@@ -1,0 +1,46 @@
+# ── Environment & Secrets ──────────────────────────────────────────────────────
+.env
+.env.*
+!.env.example
+*.env
+
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+.Python
+venv/
+env/
+.venv/
+ENV/
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ── Databases & uploads ───────────────────────────────────────────────────────
+*.db
+*.sqlite3
+data/
+backend/data/
+
+# ── Node / Next.js ─────────────────────────────────────────────────────────────
+node_modules/
+.next/
+out/
+*.log
+npm-debug.log*
+
+# ── OS & IDE ───────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.suo
+*.user
+
+# ── Test & coverage ────────────────────────────────────────────────────────────
+.pytest_cache/
+htmlcov/
+.coverage
